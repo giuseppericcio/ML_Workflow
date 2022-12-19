@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="compute_median_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="compute_median" type="xboolean" value="false"/>
+        <config key="num_nominal-values_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="num_nominal-values" type="xint" value="20"/>
+        <config key="num_nominal-values_output_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="num_nominal-values_output" type="xint" value="1000"/>
+        <config key="filter_nominal_columns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="filter_nominal_columns">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="label"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="512"/>
+                <entry key="0" type="xstring" value="f0"/>
+                <entry key="1" type="xstring" value="f1"/>
+                <entry key="2" type="xstring" value="f2"/>
+                <entry key="3" type="xstring" value="f3"/>
+                <entry key="4" type="xstring" value="f4"/>
+                <entry key="5" type="xstring" value="f5"/>
+                <entry key="6" type="xstring" value="f6"/>
+                <entry key="7" type="xstring" value="f7"/>
+                <entry key="8" type="xstring" value="f8"/>
+                <entry key="9" type="xstring" value="f9"/>
+                <entry key="10" type="xstring" value="f10"/>
+                <entry key="11" type="xstring" value="f11"/>
+                <entry key="12" type="xstring" value="f12"/>
+                <entry key="13" type="xstring" value="f13"/>
+                <entry key="14" type="xstring" value="f14"/>
+                <entry key="15" type="xstring" value="f15"/>
+                <entry key="16" type="xstring" value="f16"/>
+                <entry key="17" type="xstring" value="f17"/>
+                <entry key="18" type="xstring" value="f18"/>
+                <entry key="19" type="xstring" value="f19"/>
+                <entry key="20" type="xstring" value="f20"/>
+                <entry key="21" type="xstring" value="f21"/>
+                <entry key="22" type="xstring" value="f22"/>
+                <entry key="23" type="xstring" value="f23"/>
+                <entry key="24" type="xstring" value="f24"/>
+                <entry key="25" type="xstring" value="f25"/>
+                <entry key="26" type="xstring" value="f26"/>
+                <entry key="27" type="xstring" value="f27"/>
+                <entry key="28" type="xstring" value="f28"/>
+                <entry key="29" type="xstring" value="f29"/>
+                <entry key="30" type="xstring" value="f30"/>
+                <entry key="31" type="xstring" value="f31"/>
+                <entry key="32" type="xstring" value="f32"/>
+                <entry key="33" type="xstring" value="f33"/>
+                <entry key="34" type="xstring" value="f34"/>
+                <entry key="35" type="xstring" value="f35"/>
+                <entry key="36" type="xstring" value="f36"/>
+                <entry key="37" type="xstring" value="f37"/>
+                <entry key="38" type="xstring" value="f38"/>
+                <entry key="39" type="xstring" value="f39"/>
+                <entry key="40" type="xstring" value="f40"/>
+                <entry key="41" type="xstring" value="f41"/>
+                <entry key="42" type="xstring" value="f42"/>
+                <entry key="43" type="xstring" value="f43"/>
+                <entry key="44" type="xstring" value="f44"/>
+                <entry key="45" type="xstring" value="f45"/>
+                <entry key="46" type="xstring" value="f46"/>
+                <entry key="47" type="xstring" value="f47"/>
+                <entry key="48" type="xstring" value="f48"/>
+                <entry key="49" type="xstring" value="f49"/>
+                <entry key="50" type="xstring" value="f50"/>
+                <entry key="51" type="xstring" value="f51"/>
+                <entry key="52" type="xstring" value="f52"/>
+                <entry key="53" type="xstring" value="f53"/>
+                <entry key="54" type="xstring" value="f54"/>
+                <entry key="55" type="xstring" value="f55"/>
+                <entry key="56" type="xstring" value="f56"/>
+                <entry key="57" type="xstring" value="f57"/>
+                <entry key="58" type="xstring" value="f58"/>
+                <entry key="59" type="xstring" value="f59"/>
+                <entry key="60" type="xstring" value="f60"/>
+                <entry key="61" type="xstring" value="f61"/>
+                <entry key="62" type="xstring" value="f62"/>
+                <entry key="63" type="xstring" value="f63"/>
+                <entry key="64" type="xstring" value="f64"/>
+                <entry key="65" type="xstring" value="f65"/>
+                <entry key="66" type="xstring" value="f66"/>
+                <entry key="67" type="xstring" value="f67"/>
+                <entry key="68" type="xstring" value="f68"/>
+                <entry key="69" type="xstring" value="f69"/>
+                <entry key="70" type="xstring" value="f70"/>
+                <entry key="71" type="xstring" value="f71"/>
+                <entry key="72" type="xstring" value="f72"/>
+                <entry key="73" type="xstring" value="f73"/>
+                <entry key="74" type="xstring" value="f74"/>
+                <entry key="75" type="xstring" value="f75"/>
+                <entry key="76" type="xstring" value="f76"/>
+                <entry key="77" type="xstring" value="f77"/>
+                <entry key="78" type="xstring" value="f78"/>
+                <entry key="79" type="xstring" value="f79"/>
+                <entry key="80" type="xstring" value="f80"/>
+                <entry key="81" type="xstring" value="f81"/>
+                <entry key="82" type="xstring" value="f82"/>
+                <entry key="83" type="xstring" value="f83"/>
+                <entry key="84" type="xstring" value="f84"/>
+                <entry key="85" type="xstring" value="f85"/>
+                <entry key="86" type="xstring" value="f86"/>
+                <entry key="87" type="xstring" value="f87"/>
+                <entry key="88" type="xstring" value="f88"/>
+                <entry key="89" type="xstring" value="f89"/>
+                <entry key="90" type="xstring" value="f90"/>
+                <entry key="91" type="xstring" value="f91"/>
+                <entry key="92" type="xstring" value="f92"/>
+                <entry key="93" type="xstring" value="f93"/>
+                <entry key="94" type="xstring" value="f94"/>
+                <entry key="95" type="xstring" value="f95"/>
+                <entry key="96" type="xstring" value="f96"/>
+                <entry key="97" type="xstring" value="f97"/>
+                <entry key="98" type="xstring" value="f98"/>
+                <entry key="99" type="xstring" value="f99"/>
+                <entry key="100" type="xstring" value="f100"/>
+                <entry key="101" type="xstring" value="f101"/>
+                <entry key="102" type="xstring" value="f102"/>
+                <entry key="103" type="xstring" value="f103"/>
+                <entry key="104" type="xstring" value="f104"/>
+                <entry key="105" type="xstring" value="f105"/>
+                <entry key="106" type="xstring" value="f106"/>
+                <entry key="107" type="xstring" value="f107"/>
+                <entry key="108" type="xstring" value="f108"/>
+                <entry key="109" type="xstring" value="f109"/>
+                <entry key="110" type="xstring" value="f110"/>
+                <entry key="111" type="xstring" value="f111"/>
+                <entry key="112" type="xstring" value="f112"/>
+                <entry key="113" type="xstring" value="f113"/>
+                <entry key="114" type="xstring" value="f114"/>
+                <entry key="115" type="xstring" value="f115"/>
+                <entry key="116" type="xstring" value="f116"/>
+                <entry key="117" type="xstring" value="f117"/>
+                <entry key="118" type="xstring" value="f118"/>
+                <entry key="119" type="xstring" value="f119"/>
+                <entry key="120" type="xstring" value="f120"/>
+                <entry key="121" type="xstring" value="f121"/>
+                <entry key="122" type="xstring" value="f122"/>
+                <entry key="123" type="xstring" value="f123"/>
+                <entry key="124" type="xstring" value="f124"/>
+                <entry key="125" type="xstring" value="f125"/>
+                <entry key="126" type="xstring" value="f126"/>
+                <entry key="127" type="xstring" value="f127"/>
+                <entry key="128" type="xstring" value="f128"/>
+                <entry key="129" type="xstring" value="f129"/>
+                <entry key="130" type="xstring" value="f130"/>
+                <entry key="131" type="xstring" value="f131"/>
+                <entry key="132" type="xstring" value="f132"/>
+                <entry key="133" type="xstring" value="f133"/>
+                <entry key="134" type="xstring" value="f134"/>
+                <entry key="135" type="xstring" value="f135"/>
+                <entry key="136" type="xstring" value="f136"/>
+                <entry key="137" type="xstring" value="f137"/>
+                <entry key="138" type="xstring" value="f138"/>
+                <entry key="139" type="xstring" value="f139"/>
+                <entry key="140" type="xstring" value="f140"/>
+                <entry key="141" type="xstring" value="f141"/>
+                <entry key="142" type="xstring" value="f142"/>
+                <entry key="143" type="xstring" value="f143"/>
+                <entry key="144" type="xstring" value="f144"/>
+                <entry key="145" type="xstring" value="f145"/>
+                <entry key="146" type="xstring" value="f146"/>
+                <entry key="147" type="xstring" value="f147"/>
+                <entry key="148" type="xstring" value="f148"/>
+                <entry key="149" type="xstring" value="f149"/>
+                <entry key="150" type="xstring" value="f150"/>
+                <entry key="151" type="xstring" value="f151"/>
+                <entry key="152" type="xstring" value="f152"/>
+                <entry key="153" type="xstring" value="f153"/>
+                <entry key="154" type="xstring" value="f154"/>
+                <entry key="155" type="xstring" value="f155"/>
+                <entry key="156" type="xstring" value="f156"/>
+                <entry key="157" type="xstring" value="f157"/>
+                <entry key="158" type="xstring" value="f158"/>
+                <entry key="159" type="xstring" value="f159"/>
+                <entry key="160" type="xstring" value="f160"/>
+                <entry key="161" type="xstring" value="f161"/>
+                <entry key="162" type="xstring" value="f162"/>
+                <entry key="163" type="xstring" value="f163"/>
+                <entry key="164" type="xstring" value="f164"/>
+                <entry key="165" type="xstring" value="f165"/>
+                <entry key="166" type="xstring" value="f166"/>
+                <entry key="167" type="xstring" value="f167"/>
+                <entry key="168" type="xstring" value="f168"/>
+                <entry key="169" type="xstring" value="f169"/>
+                <entry key="170" type="xstring" value="f170"/>
+                <entry key="171" type="xstring" value="f171"/>
+                <entry key="172" type="xstring" value="f172"/>
+                <entry key="173" type="xstring" value="f173"/>
+                <entry key="174" type="xstring" value="f174"/>
+                <entry key="175" type="xstring" value="f175"/>
+                <entry key="176" type="xstring" value="f176"/>
+                <entry key="177" type="xstring" value="f177"/>
+                <entry key="178" type="xstring" value="f178"/>
+                <entry key="179" type="xstring" value="f179"/>
+                <entry key="180" type="xstring" value="f180"/>
+                <entry key="181" type="xstring" value="f181"/>
+                <entry key="182" type="xstring" value="f182"/>
+                <entry key="183" type="xstring" value="f183"/>
+                <entry key="184" type="xstring" value="f184"/>
+                <entry key="185" type="xstring" value="f185"/>
+                <entry key="186" type="xstring" value="f186"/>
+                <entry key="187" type="xstring" value="f187"/>
+                <entry key="188" type="xstring" value="f188"/>
+                <entry key="189" type="xstring" value="f189"/>
+                <entry key="190" type="xstring" value="f190"/>
+                <entry key="191" type="xstring" value="f191"/>
+                <entry key="192" type="xstring" value="f192"/>
+                <entry key="193" type="xstring" value="f193"/>
+                <entry key="194" type="xstring" value="f194"/>
+                <entry key="195" type="xstring" value="f195"/>
+                <entry key="196" type="xstring" value="f196"/>
+                <entry key="197" type="xstring" value="f197"/>
+                <entry key="198" type="xstring" value="f198"/>
+                <entry key="199" type="xstring" value="f199"/>
+                <entry key="200" type="xstring" value="f200"/>
+                <entry key="201" type="xstring" value="f201"/>
+                <entry key="202" type="xstring" value="f202"/>
+                <entry key="203" type="xstring" value="f203"/>
+                <entry key="204" type="xstring" value="f204"/>
+                <entry key="205" type="xstring" value="f205"/>
+                <entry key="206" type="xstring" value="f206"/>
+                <entry key="207" type="xstring" value="f207"/>
+                <entry key="208" type="xstring" value="f208"/>
+                <entry key="209" type="xstring" value="f209"/>
+                <entry key="210" type="xstring" value="f210"/>
+                <entry key="211" type="xstring" value="f211"/>
+                <entry key="212" type="xstring" value="f212"/>
+                <entry key="213" type="xstring" value="f213"/>
+                <entry key="214" type="xstring" value="f214"/>
+                <entry key="215" type="xstring" value="f215"/>
+                <entry key="216" type="xstring" value="f216"/>
+                <entry key="217" type="xstring" value="f217"/>
+                <entry key="218" type="xstring" value="f218"/>
+                <entry key="219" type="xstring" value="f219"/>
+                <entry key="220" type="xstring" value="f220"/>
+                <entry key="221" type="xstring" value="f221"/>
+                <entry key="222" type="xstring" value="f222"/>
+                <entry key="223" type="xstring" value="f223"/>
+                <entry key="224" type="xstring" value="f224"/>
+                <entry key="225" type="xstring" value="f225"/>
+                <entry key="226" type="xstring" value="f226"/>
+                <entry key="227" type="xstring" value="f227"/>
+                <entry key="228" type="xstring" value="f228"/>
+                <entry key="229" type="xstring" value="f229"/>
+                <entry key="230" type="xstring" value="f230"/>
+                <entry key="231" type="xstring" value="f231"/>
+                <entry key="232" type="xstring" value="f232"/>
+                <entry key="233" type="xstring" value="f233"/>
+                <entry key="234" type="xstring" value="f234"/>
+                <entry key="235" type="xstring" value="f235"/>
+                <entry key="236" type="xstring" value="f236"/>
+                <entry key="237" type="xstring" value="f237"/>
+                <entry key="238" type="xstring" value="f238"/>
+                <entry key="239" type="xstring" value="f239"/>
+                <entry key="240" type="xstring" value="f240"/>
+                <entry key="241" type="xstring" value="f241"/>
+                <entry key="242" type="xstring" value="f242"/>
+                <entry key="243" type="xstring" value="f243"/>
+                <entry key="244" type="xstring" value="f244"/>
+                <entry key="245" type="xstring" value="f245"/>
+                <entry key="246" type="xstring" value="f246"/>
+                <entry key="247" type="xstring" value="f247"/>
+                <entry key="248" type="xstring" value="f248"/>
+                <entry key="249" type="xstring" value="f249"/>
+                <entry key="250" type="xstring" value="f250"/>
+                <entry key="251" type="xstring" value="f251"/>
+                <entry key="252" type="xstring" value="f252"/>
+                <entry key="253" type="xstring" value="f253"/>
+                <entry key="254" type="xstring" value="f254"/>
+                <entry key="255" type="xstring" value="f255"/>
+                <entry key="256" type="xstring" value="f256"/>
+                <entry key="257" type="xstring" value="f257"/>
+                <entry key="258" type="xstring" value="f258"/>
+                <entry key="259" type="xstring" value="f259"/>
+                <entry key="260" type="xstring" value="f260"/>
+                <entry key="261" type="xstring" value="f261"/>
+                <entry key="262" type="xstring" value="f262"/>
+                <entry key="263" type="xstring" value="f263"/>
+                <entry key="264" type="xstring" value="f264"/>
+                <entry key="265" type="xstring" value="f265"/>
+                <entry key="266" type="xstring" value="f266"/>
+                <entry key="267" type="xstring" value="f267"/>
+                <entry key="268" type="xstring" value="f268"/>
+                <entry key="269" type="xstring" value="f269"/>
+                <entry key="270" type="xstring" value="f270"/>
+                <entry key="271" type="xstring" value="f271"/>
+                <entry key="272" type="xstring" value="f272"/>
+                <entry key="273" type="xstring" value="f273"/>
+                <entry key="274" type="xstring" value="f274"/>
+                <entry key="275" type="xstring" value="f275"/>
+                <entry key="276" type="xstring" value="f276"/>
+                <entry key="277" type="xstring" value="f277"/>
+                <entry key="278" type="xstring" value="f278"/>
+                <entry key="279" type="xstring" value="f279"/>
+                <entry key="280" type="xstring" value="f280"/>
+                <entry key="281" type="xstring" value="f281"/>
+                <entry key="282" type="xstring" value="f282"/>
+                <entry key="283" type="xstring" value="f283"/>
+                <entry key="284" type="xstring" value="f284"/>
+                <entry key="285" type="xstring" value="f285"/>
+                <entry key="286" type="xstring" value="f286"/>
+                <entry key="287" type="xstring" value="f287"/>
+                <entry key="288" type="xstring" value="f288"/>
+                <entry key="289" type="xstring" value="f289"/>
+                <entry key="290" type="xstring" value="f290"/>
+                <entry key="291" type="xstring" value="f291"/>
+                <entry key="292" type="xstring" value="f292"/>
+                <entry key="293" type="xstring" value="f293"/>
+                <entry key="294" type="xstring" value="f294"/>
+                <entry key="295" type="xstring" value="f295"/>
+                <entry key="296" type="xstring" value="f296"/>
+                <entry key="297" type="xstring" value="f297"/>
+                <entry key="298" type="xstring" value="f298"/>
+                <entry key="299" type="xstring" value="f299"/>
+                <entry key="300" type="xstring" value="f300"/>
+                <entry key="301" type="xstring" value="f301"/>
+                <entry key="302" type="xstring" value="f302"/>
+                <entry key="303" type="xstring" value="f303"/>
+                <entry key="304" type="xstring" value="f304"/>
+                <entry key="305" type="xstring" value="f305"/>
+                <entry key="306" type="xstring" value="f306"/>
+                <entry key="307" type="xstring" value="f307"/>
+                <entry key="308" type="xstring" value="f308"/>
+                <entry key="309" type="xstring" value="f309"/>
+                <entry key="310" type="xstring" value="f310"/>
+                <entry key="311" type="xstring" value="f311"/>
+                <entry key="312" type="xstring" value="f312"/>
+                <entry key="313" type="xstring" value="f313"/>
+                <entry key="314" type="xstring" value="f314"/>
+                <entry key="315" type="xstring" value="f315"/>
+                <entry key="316" type="xstring" value="f316"/>
+                <entry key="317" type="xstring" value="f317"/>
+                <entry key="318" type="xstring" value="f318"/>
+                <entry key="319" type="xstring" value="f319"/>
+                <entry key="320" type="xstring" value="f320"/>
+                <entry key="321" type="xstring" value="f321"/>
+                <entry key="322" type="xstring" value="f322"/>
+                <entry key="323" type="xstring" value="f323"/>
+                <entry key="324" type="xstring" value="f324"/>
+                <entry key="325" type="xstring" value="f325"/>
+                <entry key="326" type="xstring" value="f326"/>
+                <entry key="327" type="xstring" value="f327"/>
+                <entry key="328" type="xstring" value="f328"/>
+                <entry key="329" type="xstring" value="f329"/>
+                <entry key="330" type="xstring" value="f330"/>
+                <entry key="331" type="xstring" value="f331"/>
+                <entry key="332" type="xstring" value="f332"/>
+                <entry key="333" type="xstring" value="f333"/>
+                <entry key="334" type="xstring" value="f334"/>
+                <entry key="335" type="xstring" value="f335"/>
+                <entry key="336" type="xstring" value="f336"/>
+                <entry key="337" type="xstring" value="f337"/>
+                <entry key="338" type="xstring" value="f338"/>
+                <entry key="339" type="xstring" value="f339"/>
+                <entry key="340" type="xstring" value="f340"/>
+                <entry key="341" type="xstring" value="f341"/>
+                <entry key="342" type="xstring" value="f342"/>
+                <entry key="343" type="xstring" value="f343"/>
+                <entry key="344" type="xstring" value="f344"/>
+                <entry key="345" type="xstring" value="f345"/>
+                <entry key="346" type="xstring" value="f346"/>
+                <entry key="347" type="xstring" value="f347"/>
+                <entry key="348" type="xstring" value="f348"/>
+                <entry key="349" type="xstring" value="f349"/>
+                <entry key="350" type="xstring" value="f350"/>
+                <entry key="351" type="xstring" value="f351"/>
+                <entry key="352" type="xstring" value="f352"/>
+                <entry key="353" type="xstring" value="f353"/>
+                <entry key="354" type="xstring" value="f354"/>
+                <entry key="355" type="xstring" value="f355"/>
+                <entry key="356" type="xstring" value="f356"/>
+                <entry key="357" type="xstring" value="f357"/>
+                <entry key="358" type="xstring" value="f358"/>
+                <entry key="359" type="xstring" value="f359"/>
+                <entry key="360" type="xstring" value="f360"/>
+                <entry key="361" type="xstring" value="f361"/>
+                <entry key="362" type="xstring" value="f362"/>
+                <entry key="363" type="xstring" value="f363"/>
+                <entry key="364" type="xstring" value="f364"/>
+                <entry key="365" type="xstring" value="f365"/>
+                <entry key="366" type="xstring" value="f366"/>
+                <entry key="367" type="xstring" value="f367"/>
+                <entry key="368" type="xstring" value="f368"/>
+                <entry key="369" type="xstring" value="f369"/>
+                <entry key="370" type="xstring" value="f370"/>
+                <entry key="371" type="xstring" value="f371"/>
+                <entry key="372" type="xstring" value="f372"/>
+                <entry key="373" type="xstring" value="f373"/>
+                <entry key="374" type="xstring" value="f374"/>
+                <entry key="375" type="xstring" value="f375"/>
+                <entry key="376" type="xstring" value="f376"/>
+                <entry key="377" type="xstring" value="f377"/>
+                <entry key="378" type="xstring" value="f378"/>
+                <entry key="379" type="xstring" value="f379"/>
+                <entry key="380" type="xstring" value="f380"/>
+                <entry key="381" type="xstring" value="f381"/>
+                <entry key="382" type="xstring" value="f382"/>
+                <entry key="383" type="xstring" value="f383"/>
+                <entry key="384" type="xstring" value="f384"/>
+                <entry key="385" type="xstring" value="f385"/>
+                <entry key="386" type="xstring" value="f386"/>
+                <entry key="387" type="xstring" value="f387"/>
+                <entry key="388" type="xstring" value="f388"/>
+                <entry key="389" type="xstring" value="f389"/>
+                <entry key="390" type="xstring" value="f390"/>
+                <entry key="391" type="xstring" value="f391"/>
+                <entry key="392" type="xstring" value="f392"/>
+                <entry key="393" type="xstring" value="f393"/>
+                <entry key="394" type="xstring" value="f394"/>
+                <entry key="395" type="xstring" value="f395"/>
+                <entry key="396" type="xstring" value="f396"/>
+                <entry key="397" type="xstring" value="f397"/>
+                <entry key="398" type="xstring" value="f398"/>
+                <entry key="399" type="xstring" value="f399"/>
+                <entry key="400" type="xstring" value="f400"/>
+                <entry key="401" type="xstring" value="f401"/>
+                <entry key="402" type="xstring" value="f402"/>
+                <entry key="403" type="xstring" value="f403"/>
+                <entry key="404" type="xstring" value="f404"/>
+                <entry key="405" type="xstring" value="f405"/>
+                <entry key="406" type="xstring" value="f406"/>
+                <entry key="407" type="xstring" value="f407"/>
+                <entry key="408" type="xstring" value="f408"/>
+                <entry key="409" type="xstring" value="f409"/>
+                <entry key="410" type="xstring" value="f410"/>
+                <entry key="411" type="xstring" value="f411"/>
+                <entry key="412" type="xstring" value="f412"/>
+                <entry key="413" type="xstring" value="f413"/>
+                <entry key="414" type="xstring" value="f414"/>
+                <entry key="415" type="xstring" value="f415"/>
+                <entry key="416" type="xstring" value="f416"/>
+                <entry key="417" type="xstring" value="f417"/>
+                <entry key="418" type="xstring" value="f418"/>
+                <entry key="419" type="xstring" value="f419"/>
+                <entry key="420" type="xstring" value="f420"/>
+                <entry key="421" type="xstring" value="f421"/>
+                <entry key="422" type="xstring" value="f422"/>
+                <entry key="423" type="xstring" value="f423"/>
+                <entry key="424" type="xstring" value="f424"/>
+                <entry key="425" type="xstring" value="f425"/>
+                <entry key="426" type="xstring" value="f426"/>
+                <entry key="427" type="xstring" value="f427"/>
+                <entry key="428" type="xstring" value="f428"/>
+                <entry key="429" type="xstring" value="f429"/>
+                <entry key="430" type="xstring" value="f430"/>
+                <entry key="431" type="xstring" value="f431"/>
+                <entry key="432" type="xstring" value="f432"/>
+                <entry key="433" type="xstring" value="f433"/>
+                <entry key="434" type="xstring" value="f434"/>
+                <entry key="435" type="xstring" value="f435"/>
+                <entry key="436" type="xstring" value="f436"/>
+                <entry key="437" type="xstring" value="f437"/>
+                <entry key="438" type="xstring" value="f438"/>
+                <entry key="439" type="xstring" value="f439"/>
+                <entry key="440" type="xstring" value="f440"/>
+                <entry key="441" type="xstring" value="f441"/>
+                <entry key="442" type="xstring" value="f442"/>
+                <entry key="443" type="xstring" value="f443"/>
+                <entry key="444" type="xstring" value="f444"/>
+                <entry key="445" type="xstring" value="f445"/>
+                <entry key="446" type="xstring" value="f446"/>
+                <entry key="447" type="xstring" value="f447"/>
+                <entry key="448" type="xstring" value="f448"/>
+                <entry key="449" type="xstring" value="f449"/>
+                <entry key="450" type="xstring" value="f450"/>
+                <entry key="451" type="xstring" value="f451"/>
+                <entry key="452" type="xstring" value="f452"/>
+                <entry key="453" type="xstring" value="f453"/>
+                <entry key="454" type="xstring" value="f454"/>
+                <entry key="455" type="xstring" value="f455"/>
+                <entry key="456" type="xstring" value="f456"/>
+                <entry key="457" type="xstring" value="f457"/>
+                <entry key="458" type="xstring" value="f458"/>
+                <entry key="459" type="xstring" value="f459"/>
+                <entry key="460" type="xstring" value="f460"/>
+                <entry key="461" type="xstring" value="f461"/>
+                <entry key="462" type="xstring" value="f462"/>
+                <entry key="463" type="xstring" value="f463"/>
+                <entry key="464" type="xstring" value="f464"/>
+                <entry key="465" type="xstring" value="f465"/>
+                <entry key="466" type="xstring" value="f466"/>
+                <entry key="467" type="xstring" value="f467"/>
+                <entry key="468" type="xstring" value="f468"/>
+                <entry key="469" type="xstring" value="f469"/>
+                <entry key="470" type="xstring" value="f470"/>
+                <entry key="471" type="xstring" value="f471"/>
+                <entry key="472" type="xstring" value="f472"/>
+                <entry key="473" type="xstring" value="f473"/>
+                <entry key="474" type="xstring" value="f474"/>
+                <entry key="475" type="xstring" value="f475"/>
+                <entry key="476" type="xstring" value="f476"/>
+                <entry key="477" type="xstring" value="f477"/>
+                <entry key="478" type="xstring" value="f478"/>
+                <entry key="479" type="xstring" value="f479"/>
+                <entry key="480" type="xstring" value="f480"/>
+                <entry key="481" type="xstring" value="f481"/>
+                <entry key="482" type="xstring" value="f482"/>
+                <entry key="483" type="xstring" value="f483"/>
+                <entry key="484" type="xstring" value="f484"/>
+                <entry key="485" type="xstring" value="f485"/>
+                <entry key="486" type="xstring" value="f486"/>
+                <entry key="487" type="xstring" value="f487"/>
+                <entry key="488" type="xstring" value="f488"/>
+                <entry key="489" type="xstring" value="f489"/>
+                <entry key="490" type="xstring" value="f490"/>
+                <entry key="491" type="xstring" value="f491"/>
+                <entry key="492" type="xstring" value="f492"/>
+                <entry key="493" type="xstring" value="f493"/>
+                <entry key="494" type="xstring" value="f494"/>
+                <entry key="495" type="xstring" value="f495"/>
+                <entry key="496" type="xstring" value="f496"/>
+                <entry key="497" type="xstring" value="f497"/>
+                <entry key="498" type="xstring" value="f498"/>
+                <entry key="499" type="xstring" value="f499"/>
+                <entry key="500" type="xstring" value="f500"/>
+                <entry key="501" type="xstring" value="f501"/>
+                <entry key="502" type="xstring" value="f502"/>
+                <entry key="503" type="xstring" value="f503"/>
+                <entry key="504" type="xstring" value="f504"/>
+                <entry key="505" type="xstring" value="f505"/>
+                <entry key="506" type="xstring" value="f506"/>
+                <entry key="507" type="xstring" value="f507"/>
+                <entry key="508" type="xstring" value="f508"/>
+                <entry key="509" type="xstring" value="f509"/>
+                <entry key="510" type="xstring" value="f510"/>
+                <entry key="511" type="xstring" value="f511"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="image format_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="image format" type="xstring" value="SVG"/>
+        <config key="histogram width_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="histogram width" type="xint" value="200"/>
+        <config key="histogram height_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="histogram height" type="xint" value="100"/>
+        <config key="enable HiLite_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enable HiLite" type="xboolean" value="false"/>
+        <config key="show min max_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="show min max" type="xboolean" value="true"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="287"/>
+        <entry key="y-coordinate" type="xint" value="79"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="15"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Statistics"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Statistic Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.stats"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.0.v202202280943"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Statistics Nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.stats.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.0.v202202280943"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Statistics"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
